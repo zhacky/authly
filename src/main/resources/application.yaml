@@ -1,0 +1,4 @@
+# noinspection undefined
+security:
+  jwt:
+    secret-key: YyaMVllldnhJeemllPdePPqte
