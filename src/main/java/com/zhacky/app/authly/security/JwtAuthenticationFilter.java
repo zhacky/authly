@@ -1,4 +1,4 @@
-package com.zhacky.app.authly.config;
+package com.zhacky.app.authly.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

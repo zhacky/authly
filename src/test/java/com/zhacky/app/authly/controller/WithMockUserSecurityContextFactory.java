@@ -1,7 +1,7 @@
 package com.zhacky.app.authly.controller;
 
-import com.zhacky.app.authly.config.UserPrincipal;
-import com.zhacky.app.authly.config.UserPrincipalAuthenticationToken;
+import com.zhacky.app.authly.security.UserPrincipal;
+import com.zhacky.app.authly.security.UserPrincipalAuthenticationToken;
 import java.util.Arrays;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContext;

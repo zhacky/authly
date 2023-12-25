@@ -1,4 +1,4 @@
-package com.zhacky.app.authly.config;
+package com.zhacky.app.authly.security;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.Collection;

@@ -1,6 +1,6 @@
 package com.zhacky.app.authly.service;
 
-import com.zhacky.app.authly.config.UserPrincipal;
+import com.zhacky.app.authly.security.UserPrincipal;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

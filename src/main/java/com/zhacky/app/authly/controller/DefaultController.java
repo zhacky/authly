@@ -1,6 +1,6 @@
 package com.zhacky.app.authly.controller;
 
-import com.zhacky.app.authly.config.UserPrincipal;
+import com.zhacky.app.authly.security.UserPrincipal;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.GetMapping;

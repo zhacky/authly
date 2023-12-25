@@ -2,3 +2,10 @@
 security:
   jwt:
     secret-key: YyaMVllldnhJeemllPdePPqte
+
+spring:
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: 'create-drop'
+    show-sql: true

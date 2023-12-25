@@ -1,8 +1,8 @@
 package com.zhacky.app.authly.service;
 
-import com.zhacky.app.authly.config.JwtIssuer;
-import com.zhacky.app.authly.config.UserPrincipal;
 import com.zhacky.app.authly.exchange.AuthenticationResponse;
+import com.zhacky.app.authly.security.JwtIssuer;
+import com.zhacky.app.authly.security.UserPrincipal;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;

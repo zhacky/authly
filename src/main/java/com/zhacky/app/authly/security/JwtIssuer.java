@@ -1,4 +1,4 @@
-package com.zhacky.app.authly.config;
+package com.zhacky.app.authly.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;

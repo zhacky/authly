@@ -1,4 +1,4 @@
-package com.zhacky.app.authly.config;
+package com.zhacky.app.authly.security;
 
 import com.auth0.jwt.interfaces.DecodedJWT;
 import java.util.List;
