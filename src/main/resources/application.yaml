@@ -9,3 +9,8 @@ spring:
     hibernate:
       ddl-auto: 'create-drop'
     show-sql: true
+  datasource:
+    username: postgres
+    password: 12345678
+    url: jdbc:postgresql://localhost:5432/authly
+
