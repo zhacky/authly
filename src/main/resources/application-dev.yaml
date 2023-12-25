@@ -5,11 +5,3 @@ security:
 
 
 
-spring:
-  profiles:
-    active: local
-
-
-
-
-

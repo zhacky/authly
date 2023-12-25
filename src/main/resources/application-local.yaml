@@ -1,0 +1,16 @@
+# noinspection undefined
+security:
+  jwt:
+    secret-key: YyaMVllldnhJeemllPdePPqte
+
+spring:
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: 'create-drop'
+    show-sql: true
+  datasource:
+    username: postgres
+    password: 12345678
+    url: jdbc:postgresql://localhost:5432/authly
+

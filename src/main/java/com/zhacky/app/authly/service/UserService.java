@@ -30,8 +30,8 @@ public class UserService {
   }
 
   public void create(User user) {
-    int update = jdbcClient.sql("INSERT INTO users(email,password,role,extra_info) values(?,?,?,?)")
-        .params(List.of(user.getEmail(), user.getPassword(), user.getRole(), user.getExtraInfo()))
+    int update = jdbcClient.sql("INSERT INTO users(username,email,password,roles,extra_info) values(?, ?,?,?,?)")
+        .params(List.of(user.getEmail(), user.getEmail(), user.getPassword(), user.getRoles(), user.getExtraInfo()))
         .update();
   }
 
